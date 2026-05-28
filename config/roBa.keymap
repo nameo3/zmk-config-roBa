@@ -81,7 +81,10 @@
             tapping-term-ms = <200>;
         };
     };
-macros {
+#define MOUSE 5
+
+/{
+    macros {
         exit_AML: exit_AML {
             compatible = "zmk,behavior-macro";
             wait-ms = <0>;
@@ -120,7 +123,7 @@ macros {
             quick-tap-ms = <200>;
         };
     };
-
+}
 
     keymap {
         compatible = "zmk,keymap";

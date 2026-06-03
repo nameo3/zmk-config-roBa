@@ -79,7 +79,6 @@
         };
     };
 
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -148,8 +147,6 @@
 &kp LSHFT  &kp Z     &kp X     &kp C         &kp V      &kp B             &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RSHFT
 &kp LCTRL  &kp LALT  &kp LGUI  &kt NUMBER_1  &kp SPACE  &kp NUMBER_2      &trans          &trans                                                            &to 0
             >;
-
-            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
         };
 
         kari {

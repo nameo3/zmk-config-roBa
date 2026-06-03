@@ -79,14 +79,13 @@
         };
     };
 
-behaviors {
-    enc_scroll: enc_scroll {
-        compatible = "zmk,behavior-sensor-rotate";
-        #sensor-binding-cells = <0>;
-        bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+    behaviors {
+        enc_scroll: enc_scroll {
+            compatible = "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+        };
     };
-};
-
 
     keymap {
         compatible = "zmk,keymap";
@@ -99,7 +98,7 @@ behaviors {
 &lt_to_layer_0 2 INT_MUHENKAN  &kp LCTRL  &kp ESCAPE  &lt_to_layer_0 1 INT_HENKAN  &lt 4 SPACE       &lt_to_layer_0 4 LANGUAGE_4      &kp BACKSPACE       &lt 0 ENTER                               &lt_to_layer_0 2 DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
+            sensor-bindings = <&enc_scroll>;
         };
 
         Qwerty {

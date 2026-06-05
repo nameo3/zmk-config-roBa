@@ -57,6 +57,11 @@
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
         };
+
+        escgame {
+            bindings = <&kp ESC>;
+            key-positions = <37 11>;
+        };
     };
 
     #define MOUSE 5
@@ -79,13 +84,15 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
+
         encoder_msc_down_up: encoder_msc_down_up {
             compatible = "zmk,behavior-sensor-rotate";
             label = "ENCODER_MSC_DOWN_UP";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+
             tap-ms = <20>;
-       };
+        };
     };
 
     keymap {
@@ -95,7 +102,7 @@
             bindings = <
 &kp TAB                        &kp COMMA  &kp PERIOD  &kp MINUS                    &kp Q                                                                  &kp L              &kp R  &lt 6 D  &kp Y  &kp P
 &kp A                          &kp O      &kp E       &kp I                        &kp U             &none                            &to 6               &kp G              &kp N  &kp T    &kp S  &kp K
-&mt LEFT_SHIFT X               &kp C      &kp V       &kp W                        &mt LEFT_SHIFT F  &none                            &lt_to_layer_0 3 A  &mt RIGHT_SHIFT J  &kp H  &kp M    &kp B  &kp Z
+&mt LEFT_SHIFT X               &kp C      &kp V       &kp W                        &mt LEFT_SHIFT F  &to 6                            &lt_to_layer_0 3 A  &mt RIGHT_SHIFT J  &kp H  &kp M    &kp B  &kp Z
 &lt_to_layer_0 2 INT_MUHENKAN  &kp LCTRL  &kp ESCAPE  &lt_to_layer_0 1 INT_HENKAN  &lt 4 SPACE       &lt_to_layer_0 4 LANGUAGE_4      &kp BACKSPACE       &lt 0 ENTER                               &lt_to_layer_0 2 DEL
             >;
 
@@ -151,11 +158,13 @@
 
         GAME {
             bindings = <
-&kp TAB    &kp Q     &kp W     &kp E         &kp R                                        &kp T           &kp Y            &kp U           &kp I            &kp O
-&kp CAPS   &kp A     &kp S     &kp D         &kp F      &none             &kp G           &kp UP_ARROW    &mkp MB1         &kp UP_ARROW    &mkp MB2         &kp APOS
-&kp LSHFT  &kp Z     &kp X     &kp C         &kp V      &kp B             &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RSHFT
-&kp LCTRL  &kp LALT  &kp LGUI  &kt NUMBER_1  &kp SPACE  &kp NUMBER_2      &trans          &trans                                                            &to 0
+&kp TAB    &kp Q     &kp W         &kp E          &kp R                                        &kp T           &kp Y            &kp U           &kp I            &kp O
+&kp CAPS   &kp A     &kp S         &kp D          &kp F      &none             &kp G           &kp UP_ARROW    &mkp MB1         &kp UP_ARROW    &mkp MB2         &kp APOS
+&kp LSHFT  &kp Z     &kp X         &kp C          &kp V      &kp B             &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RSHFT
+&kp LCTRL  &kp LALT  &kp NUMBER_1  &kt BACKSPACE  &kp SPACE  &kp NUMBER_0      &trans          &trans                                                            &to 0
             >;
+
+            sensor-bindings = <&encoder_msc_down_up>;
         };
 
         kari {

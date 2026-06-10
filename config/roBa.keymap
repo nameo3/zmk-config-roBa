@@ -132,10 +132,10 @@
 
         GAME {
             bindings = <
-&kp TAB    &kp Q         &kp W         &kp E         &kp R                                  &kp T   &kp Y           &kp U           &kp I            &kp O
-&kp CAPS   &kp A         &kp S         &kp D         &kp F          &none           &kp A   &kp G   &mkp MB1        &kp UP_ARROW    &mkp MB2         &kp APOS
-&kp LSHFT  &kp Z         &kp X         &kp C         &kp V          &kp ESCAPE      &to 8   &kp B   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RSHFT
-&kp LCTRL  &kp LEFT_WIN  &kp NUMBER_1  &kp LEFT_ALT  &kp BACKSPACE  &kp SPACE       &trans  &trans                                                   &to 0
+&kp TAB    &kp Q         &kp W         &kp E         &kp R                                 &kp T   &kp Y           &kp U           &kp I            &kp O
+&kp CAPS   &kp A         &kp S         &kp D         &kp F      &none              &kp A   &kp G   &mkp MB1        &kp UP_ARROW    &mkp MB2         &kp APOS
+&kp LSHFT  &kp Z         &kp X         &kp C         &kp V      &kp ESCAPE         &to 8   &kp B   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RSHFT
+&kp LCTRL  &kp LEFT_WIN  &kp NUMBER_1  &kp LEFT_ALT  &kp SPACE  &kp BACKSPACE      &trans  &trans                                                   &to 0
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;

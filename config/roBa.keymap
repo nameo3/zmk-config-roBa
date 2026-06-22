@@ -143,10 +143,10 @@
 
         GAME2 {
             bindings = <
-&kp ESC    &trans    &kp UP    &trans     &trans                        &trans     &kp Q  &kp W  &kp E  &trans
-&trans     &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans      &trans    &trans     &kp A  &kp S  &kp D  &trans
-&kp LSHFT  &trans    &trans    &trans     &trans  &trans      &trans    &trans     &kp Z  &kp X  &kp C  &kp RSHFT
-&kp LCTRL  &trans    &trans    &kp Z      &kp X   &kp C       &kp BSPC  &kp ENTER                       &to 0
+&kp ESC    &trans    &kp UP    &trans     &trans                        &trans     &kp Q           &kp UP_ARROW    &kp E            &trans
+&trans     &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans      &trans    &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&kp LSHFT  &kp Z     &kp X     &kp C      &trans  &trans      &trans    &trans     &kp Z           &kp X           &kp C            &kp RSHFT
+&kp LCTRL  &trans    &trans    &kp Z      &kp X   &kp C       &kp BSPC  &kp ENTER                                                   &to 0
             >;
         };
     };

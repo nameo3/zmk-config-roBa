@@ -65,10 +65,10 @@
 
         Tomisuke {
             bindings = <
-&kp TAB                        &kp COMMA  &kp PERIOD  &kp MINUS                      &kp Q                                                                  &kp L              &kp R  &kp D  &kp Y  &kp P
-&kp A                          &kp O      &kp E       &kp I                          &kp U             &none                            &to 7               &kp G              &kp N  &kp T  &kp S  &kp K
-&mt LEFT_SHIFT X               &kp C      &kp V       &kp W                          &mt LEFT_SHIFT F  &to 7                            &lt_to_layer_0 3 A  &mt RIGHT_SHIFT J  &kp H  &kp M  &kp B  &kp Z
-&lt_to_layer_0 6 INT_MUHENKAN  &kp LCTRL  &kp ESCAPE  &lt_to_layer_0 4 INT_MUHENKAN  &lt 2 SPACE       &lt_to_layer_0 2 INT_HENKAN      &kp BACKSPACE       &lt 3 ENTER                             &lt_to_layer_0 6 DELETE
+&kp TAB           &kp COMMA     &kp PERIOD  &kp MINUS               &kp Q                                                                  &kp L              &kp R  &kp D  &kp Y  &kp P
+&kp A             &kp O         &kp E       &kp I                   &kp U             &none                            &to 7               &kp G              &kp N  &kp T  &kp S  &kp K
+&mt LEFT_SHIFT X  &kp C         &kp V       &kp W                   &mt LEFT_SHIFT F  &to 7                            &lt_to_layer_0 3 A  &mt RIGHT_SHIFT J  &kp H  &kp M  &kp B  &kp Z
+&kp LCTRL         &kp LEFT_WIN  &kp ESCAPE  &lt_to_layer_0 4 LANG2  &lt 2 SPACE       &lt_to_layer_0 2 INT_HENKAN      &kp BACKSPACE       &lt 3 ENTER                             &lt_to_layer_0 6 DELETE
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -132,10 +132,10 @@
 
         GAME {
             bindings = <
-&kp ESCAPE  &kp Q         &kp W         &kp E         &kp R                                 &kp T   &kp Y           &kp U           &kp I            &kp O
-&kp TAB     &kp A         &kp S         &kp D         &kp F      &none              &kp A   &kp G   &mkp MB1        &kp UP_ARROW    &mkp MB2         &kp APOS
-&kp LSHFT   &kp Z         &kp X         &kp C         &kp V      &kp B              &to 8   &kp B   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RSHFT
-&kp LCTRL   &kp LEFT_WIN  &kp NUMBER_1  &kp LEFT_ALT  &kp SPACE  &kp BACKSPACE      &trans  &trans                                                   &to 0
+&kp ESCAPE  &kp Q         &kp W         &kp E         &kp R                                 &kp T   &kp Y  &kp U  &kp I      &kp O
+&kp TAB     &kp A         &kp S         &kp D         &kp F      &none              &kp A   &kp G   &kp H  &kp J  &kp K      &kp L
+&kp LSHFT   &kp Z         &kp X         &kp C         &kp V      &kp B              &to 8   &kp B   &kp N  &kp M  &kp COMMA  &kp RSHFT
+&kp LCTRL   &kp LEFT_WIN  &kp NUMBER_1  &kp LEFT_ALT  &kp SPACE  &kp BACKSPACE      &trans  &trans                           &to 0
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;

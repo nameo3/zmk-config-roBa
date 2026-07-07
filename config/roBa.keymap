@@ -65,10 +65,10 @@
 
         Tomisuke {
             bindings = <
-&kp TAB           &kp COMMA     &kp PERIOD    &kp MINUS               &kp Q                                                        &kp L              &kp R  &kp D  &kp Y  &kp P
-&kp A             &kp O         &kp E         &kp I                   &kp U             &none                       &kp A          &kp G              &kp N  &kp T  &kp S  &kp K
-&mt LEFT_SHIFT X  &kp C         &kp V         &kp W                   &mt LEFT_SHIFT F  &kp F13                     &to 7          &mt RIGHT_SHIFT J  &kp H  &kp M  &kp B  &kp Z
-&lt 4 ESC         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 LANG2  &kp SPACE         &lt_to_layer_0 2 LANG1      &kp BACKSPACE  &lt 3 ENTER                             &lt_to_layer_0 6 DELETE
+&kp TAB           &kp COMMA     &kp PERIOD    &kp MINUS                      &kp Q                                                        &kp L              &kp R  &kp D  &kp Y  &kp P
+&kp A             &kp O         &kp E         &kp I                          &kp U             &none                       &kp A          &kp G              &kp N  &kp T  &kp S  &kp K
+&mt LEFT_SHIFT X  &kp C         &kp V         &kp W                          &mt LEFT_SHIFT F  &kp F13                     &to 7          &mt RIGHT_SHIFT J  &kp H  &kp M  &kp B  &kp Z
+&lt 4 ESC         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_MUHENKAN  &kp SPACE         &lt_to_layer_0 2 LANG1      &kp BACKSPACE  &lt 3 ENTER                             &lt_to_layer_0 6 DELETE
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;

@@ -66,7 +66,7 @@
         Tomisuke {
             bindings = <
 &kp TAB           &kp COMMA     &kp PERIOD    &kp MINUS                    &kp Q                                                        &kp L              &kp R  &kp D  &kp Y  &kp P
-&kp A             &kp O         &kp E         &kp I                        &kp U             &none                       &to 1          &kp G              &kp N  &kp T  &kp S  &kp K
+&kp A             &kp O         &kp E         &kp I                        &kp U             &none                       &none          &kp G              &kp N  &kp T  &kp S  &kp K
 &mt LEFT_SHIFT X  &kp C         &kp V         &kp W                        &mt LEFT_SHIFT F  &kp F13                     &to 7          &mt RIGHT_SHIFT J  &kp H  &kp M  &kp B  &mt RSHIFT Z
 &mt LCTRL ESC     &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 LANGUAGE_2  &kp SPACE         &lt_to_layer_0 2 LANG1      &kp BACKSPACE  &lt 3 ENTER                             &lt_to_layer_0 6 DELETE
             >;
@@ -85,10 +85,10 @@
 
         SYMBOLS {
             bindings = <
-&kp AMPERSAND  &kp AT          &kp HASH      &kp PERCENT  &trans                      &kp GRAVE         &kp APOS              &kp COLON      &kp SEMI          &trans
-&kp TILDE      &kp MINUS       &kp ASTERISK  &kp EQUAL    &trans  &trans      &trans  &kp LEFT_BRACKET  &mt RBKT LBKT         &kp EXCL       &kp QUESTION      &kp PIPE
-&kp CARET      &kp UNDERSCORE  &kp DOLLAR    &kp PLUS     &trans  &trans      &trans  &kp LEFT_BRACE    &kp LEFT_PARENTHESIS  &kp LESS_THAN  &kp GREATER_THAN  &trans
-&trans         &trans          &trans        &trans       &trans  &trans      &trans  &trans                                                                   &trans
+&kp AMPERSAND  &kp AT          &kp HASH      &kp PERCENT  &trans                      &kp GRAVE         &kp APOS               &kp COLON      &kp SEMI          &trans
+&kp TILDE      &kp MINUS       &kp ASTERISK  &kp EQUAL    &trans  &trans      &trans  &kp LEFT_BRACKET  &mt RBKT LEFT_BRACKET  &kp EXCL       &kp QUESTION      &kp PIPE
+&kp CARET      &kp UNDERSCORE  &kp DOLLAR    &kp PLUS     &trans  &trans      &trans  &kp LEFT_BRACE    &kp LEFT_PARENTHESIS   &kp LESS_THAN  &kp GREATER_THAN  &trans
+&trans         &trans          &trans        &trans       &trans  &trans      &trans  &trans                                                                    &trans
             >;
         };
 

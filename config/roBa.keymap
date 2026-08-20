@@ -94,7 +94,7 @@
 
         NUM {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                &kp SPACE  &kp SPACE  &kp UP     &kp SPACE  &kp SPACE
+&kp MINUS                   &kp KP_NUMBER_7  &kp N8           &kp NUMBER_9     &kp PLUS                                &kp SPACE  &kp SPACE  &kp UP     &kp SPACE  &kp SPACE
 &kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &none          &kp SPACE  &kp SPACE  &kp LEFT   &kp DOWN   &kp RIGHT  &kp SPACE
 &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL      &trans     &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE
 &trans                      &trans           &trans           &kp KP_NUMBER_0  &trans        &trans         &trans     &trans                                      &kp SPACE

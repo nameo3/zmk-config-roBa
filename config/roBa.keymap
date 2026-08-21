@@ -85,19 +85,19 @@
 
         SYMBOLS {
             bindings = <
-&kp AMPERSAND  &kp AT          &kp HASH      &kp PERCENT  &trans                      &kp GRAVE         &kp APOS               &kp COLON      &kp SEMI          &trans
-&kp TILDE      &kp MINUS       &kp ASTERISK  &kp EQUAL    &trans  &trans      &trans  &kp LEFT_BRACKET  &mt RBKT LEFT_BRACKET  &kp EXCL       &kp QUESTION      &kp PIPE
-&kp CARET      &kp UNDERSCORE  &kp DOLLAR    &kp PLUS     &trans  &trans      &trans  &kp LEFT_BRACE    &kp LEFT_PARENTHESIS   &kp LESS_THAN  &kp GREATER_THAN  &trans
-&trans         &trans          &trans        &trans       &trans  &trans      &trans  &trans                                                                    &trans
+&kp AMPERSAND  &kp AT          &kp HASH            &kp PERCENT  &trans                      &kp GRAVE      &kp APOS               &kp COLON      &kp SEMI          &trans
+&kp TILDE      &kp MINUS       &kp ASTERISK        &kp EQUAL    &trans  &trans      &trans  &mt RBKT LBKT  &mt RBKT LEFT_BRACKET  &kp EXCL       &kp QUESTION      &kp PIPE
+&kp CARET      &kp UNDERSCORE  &mt INT_YEN DOLLAR  &kp PLUS     &trans  &trans      &trans  &mt RBRC LBRC  &mt RPAR LPAR          &kp LESS_THAN  &kp GREATER_THAN  &trans
+&trans         &trans          &trans              &trans       &trans  &trans      &trans  &trans                                                                 &trans
             >;
         };
 
         NUM {
             bindings = <
-&kp MINUS          &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9     &kp PLUS                                &kp SPACE  &kp SPACE  &kp UP     &kp SPACE  &kp SPACE
-&kp SLASH          &kp NUMBER_4  &kp N5        &kp N6           &kp ASTERISK  &trans         &kp SPACE  &kp SPACE  &kp LEFT   &kp DOWN   &kp RIGHT  &kp SPACE
-&mt LEFT_SHIFT N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3     &kp PERIOD    &kp EQUAL      &trans     &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE
-&trans             &trans        &trans        &kp KP_NUMBER_0  &trans        &trans         &trans     &trans                                      &kp SPACE
+&kp MINUS           &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS                                &kp SPACE  &kp SPACE  &kp UP     &kp SPACE  &kp SPACE
+&kp SLASH           &kp NUMBER_4  &kp N5        &kp N6        &kp ASTERISK  &trans         &kp SPACE  &kp SPACE  &kp LEFT   &kp DOWN   &kp RIGHT  &kp SPACE
+&mt INT_YEN DOLLAR  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &kp EQUAL      &trans     &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE
+&trans              &trans        &trans        &kp N0        &trans        &trans         &trans     &trans                                      &kp SPACE
             >;
         };
 
